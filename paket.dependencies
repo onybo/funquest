@@ -1,4 +1,7 @@
 source https://nuget.org/api/v2
 
 nuget FAKE
+nuget FsPickler.Json
 nuget Suave
+nuget FSharp.Data
+nuget FsPickler

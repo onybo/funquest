@@ -11,6 +11,7 @@ open Suave.Http.Successful
 open Suave.Web
 open Suave.Types
 open System.Net
+open System
 
 let serverConfig = 
     let port = getBuildParamOrDefault "port" "8083" |> Sockets.Port.Parse
